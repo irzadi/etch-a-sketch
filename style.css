@@ -1,0 +1,33 @@
+#main-container {
+    display: flex;
+    align-self: center;
+    padding-left: 5%;
+    width: 100%;
+}
+
+.grid-row {
+    display:flex;
+    flex-direction: column;
+    border-color: sienna;
+    border-style: solid;
+    text-align: center;
+}
+
+.grid-column:hover {
+    background-color: saddlebrown;
+}
+
+.grid-column {
+    display:flex;
+    text-align: center;
+    border-color: green;
+    border-style: solid;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right:30%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
